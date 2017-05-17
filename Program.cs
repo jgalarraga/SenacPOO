@@ -42,7 +42,8 @@ namespace FigurasGeometricas
 
             } else
             {
-                Console.WriteLine("Seu apressadinho! Estamos aprendendo apenas sobre círculos ou retângulos no momento.");
+                Console.WriteLine("Seu apressadinho! >:/ ");
+                Console.WriteLine("Estamos aprendendo apenas sobre círculos ou retângulos no momento.");
             }
             Console.WriteLine("");
         }
