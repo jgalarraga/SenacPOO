@@ -20,12 +20,12 @@ namespace FigurasGeometricas
         }
 
         // MÉTODOS GETTER
-        public new double getArea()
+        public override double getArea()
         {
             return primeiroLado * segundoLado;
         }
 
-        public new double getPerimetro()
+        public override double getPerimetro()
         {
             return (2 * primeiroLado) + (2 * segundoLado);
         }
