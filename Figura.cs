@@ -13,14 +13,14 @@ namespace FigurasGeometricas
         private double area = 0;
 
         // MÉTODOS
-        public double getPerimetro()
+        public virtual double getPerimetro()
         {
-            return perimetro;
+            return 0;
         }
 
-        public double getArea()
+        public virtual double getArea()
         {
-            return area;
+            return 0;
         }
     }
 }

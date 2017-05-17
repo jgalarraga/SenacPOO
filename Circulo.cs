@@ -19,12 +19,12 @@ namespace FigurasGeometricas
         }
 
         // MÉTODOS GETTER
-        public new double getArea()
+        public override double getArea()
         {
             return pi * Math.Pow(raio, 2);
         }
 
-        public new double getPerimetro()
+        public override double getPerimetro()
         {
             return 2 * pi * raio;
         }
